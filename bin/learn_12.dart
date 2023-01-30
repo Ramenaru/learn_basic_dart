@@ -14,5 +14,7 @@ void main() {
   var convertNumber3 = num is int;
   print(convertNumber3); //and then they say true ok
   var convertNumber4 = num as int;
-  print(convertNumber4);
+  print(convertNumber4); //like that
+
+  //usually people using as or is, that usefull to be debuging something or checking the variable especially 'is'
 }
