@@ -1,24 +1,25 @@
 //assignment operator
 
 void main() {
-  var a = 10;
+  int a = 10;
+  int b = 10;
+  //that is the oldest one
 
-  //the difference between arithmetic Operators and assignment
-  print(a = a + 10);
-  print(a = a - 10);
-  print(a = a * 10);
-  print(a += 10);
-  print(a -= 10);
-  print(a *= 10);
+  //here is
+  a -= 10;
+  a += 10;
 
-  var i = 10;
-  // i++;
+  print(a);
+
+  //increment or decrement
+  var i = 100;
+  i++;
   print(i);
 
-  var g = i++;
-  print(g);
+  var ii = 1000;
+  var iii = ii++;
+  print(iii);
 
-  var k = ++i;
-
-  print(++i);
+  var iiii = ++iii;
+  print(iiii);
 }
