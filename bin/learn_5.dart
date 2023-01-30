@@ -8,4 +8,7 @@ void main() {
   print(myString);
 
   //========String Interpolation========//
+  /*string is support expression, if you want to get a data from another
+  data types, string interpolation is the best choice.
+  */
 }
